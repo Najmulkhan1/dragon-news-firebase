@@ -4,7 +4,7 @@ import { format } from "date-fns";
 import { CiBookmark, CiShare2 } from "react-icons/ci";
 import { Link } from "react-router";
 
-const NewsCard = ({ news }) => {
+const  NewsCard = ({ news }) => {
   const { id, title, thumbnail_url, details, author, rating, total_view, others } =
     news;
 

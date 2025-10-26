@@ -4,9 +4,10 @@ import classImg from "../../assets/class.png"
 import playgroundImg from "../../assets/playground.png"
 
 
-const Qzone = () => {
+const Qzone2 = () => {
   return (
-    <div className='bg-base-200 p-3'>
+    <div>
+        <div className='bg-base-200 p-3'>
         <h2 className='font-bold mb-4'>QZone</h2>
         <div className='flex flex-col'>
             <img src={swimmingImage} alt="" />
@@ -14,7 +15,8 @@ const Qzone = () => {
             <img src={playgroundImg} alt="" />
         </div>
     </div>
+    </div>
   )
 }
 
-export default Qzone
+export default Qzone2
